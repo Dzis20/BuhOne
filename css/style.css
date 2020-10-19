@@ -3,13 +3,12 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #333333;
+    color: #222222;
 }
 .container {
     max-width: 1120px;
     margin: 0 auto;
 }
-
 h2.section-title {
     font-size: 48px;
     font-family: 'Merriweather', serif;
@@ -17,5 +16,113 @@ h2.section-title {
     line-height: 1.32;
     margin-bottom: 80px;
 }
+.header {
+    margin-bottom: 31px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header-logo {
+    margin-top: 10px;
+    display: flex;
+}
+img.logo {
+    margin-right: 30px;
+}
+p.header-logo-text {
+    color: #005FA3;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    line-height: 1.38;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.header-info {
+    padding-top: 23px;
+    display: flex;
+    margin-bottom: 22px;
+}
+.header-info p {
+    display: flex;
+    font-size: 13px;
+    line-height: 1.32;
+    margin-left: 40px;
+}
+.header-info p img {
+    width: 17px;
+    height: 17px;
+    margin-right: 15px;
+}
+ul.main-nav {
+    display: flex;
+    
+}
+ul.main-nav li {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1;
+    margin-left: 76px;
+    text-transform: uppercase;
+}
+ul.main-nav li:first-child {
+    margin-left: 0;
+}
+.main {
+    height: 670px;
+    background-image: url(../img/main-background.png);
+}
+.swiper-container {
+    width: 100%;
+    height: 670px;
+    position: relative;
+}
 
-/* npm install normalize.css */
+.swiper-pagination {
+	position: absolute;
+	bottom: 0%;
+	left: 10%;
+	width: 150px !important;
+	left: auto !important;
+    margin-bottom: 113px;
+    display: flex;
+    justify-content: space-between;
+}
+.swiper-pagination-bullet {
+    background: #fff !important;
+    padding: 5px;
+}
+.swiper-pagination-bullet-active {
+	background: white;
+}
+.swiper-slide {
+    padding-top: 170px;
+}
+h1.main-text {
+    font-family: 'Merriweather', serif;
+    line-height: 50px;
+    font-style: 48px;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 589px;
+    color: white;
+    margin-bottom: 70px;
+}
+a.main-btn {
+    width: 270px;
+    height: 60px;
+    display: inline-block;
+    background-color: #005FA3;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
