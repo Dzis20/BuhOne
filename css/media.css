@@ -15,6 +15,9 @@
     .container {
         max-width: 767px;
     }
+    .header {
+        padding-bottom: 23px;
+    }
     .header .container {
         display: flex;
         justify-content: space-between;
@@ -71,13 +74,13 @@
         transform: rotate(-45deg);
         bottom: 8px;
         transition: 1s;
-        background-color: #fff;
+        background-color: grey;
     }
     .burger-menu.active::before {
         transform: rotate(45deg);
         top: 8px;
         transition: 1s;
-        background-color: #fff;
+        background-color: grey;
     }
     .header-content {
         padding-left: 20px;
@@ -87,14 +90,31 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: #242B33;
+        background-color: #fff;
         z-index: 2;
         padding-top: 125px;
+        padding-left: 40px;
         transition: 1s;
     }
     .header-content.active {
         left: 0;
         transition: 1s;
+    }
+    
+    .header-info {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .header-info p {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    ul.main-nav {
+        display: block;
+    }
+    ul.main-nav li {
+        margin-left: 0;
+        margin-bottom: 40px;
     }
 }
 @media (max-width: 767px) {

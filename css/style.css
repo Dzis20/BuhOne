@@ -17,7 +17,7 @@ h2.section-title {
     margin-bottom: 80px;
 }
 .header {
-    margin-bottom: 31px;
+    padding-bottom: 31px;
 }
 .header .container {
     display: flex;
@@ -70,7 +70,7 @@ ul.main-nav li {
     margin-left: 76px;
     text-transform: uppercase;
 }
-ul.main-nav li:first-child {
+ul.main-nav li:first-child, .header-info p:first-child {
     margin-left: 0;
 }
 .main {
