@@ -154,6 +154,7 @@ a.main-btn {
 }
 .about {
     padding: 140px 0;
+    
 }
 .about-content {
     display: flex;
@@ -171,4 +172,43 @@ a.main-btn {
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
+    max-width: 445px;
 }
+.about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-info-item {
+    width: 255px;
+    height: 255px;
+    background-color: #E5E5E5;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.about-info-item h3 {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 10%;
+    margin-bottom: 20px;
+}
+.about-info-item p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 120px;
+    margin-bottom: 47px;
+}
+.about-info-item a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #005FA3;
+    text-decoration:underline;
+}
+/* .about-info-item:first-child, .about-info-item:nth-child(3) {
+    margin-right: 30px;
+    
+} */
