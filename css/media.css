@@ -118,5 +118,29 @@
     }
 }
 @media (max-width: 767px) {
-    
+    .services {
+        padding-top: 80px;
+        padding-bottom: 75px;
+        background-color: #EBEBEB;
+    }
+    .services span {
+        font-size: 20px;
+    }
+    .services h2 {
+        font-size: 36px;
+    }
+    .services-item {
+        width: 49%;
+    }
+} 
+@media (max-width: 500px) {
+    .services span {
+        font-size: 16px;
+    }
+    .services h2 {
+        font-size: 26px;
+    }
+    .services-item {
+        width: 100%;
+    }
 }

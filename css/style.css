@@ -14,7 +14,13 @@ h2.section-title {
     font-family: 'Merriweather', serif;
     font-weight: bold;
     line-height: 1.32;
-    margin-bottom: 80px;
+    padding-top: 38px;
+}
+span.for-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #bdbdbd;
 }
 .header {
     padding-bottom: 31px;
@@ -125,4 +131,44 @@ a.main-btn {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.services {
+    padding-top: 140px;
+    padding-bottom: 155px;
+    background-color: #EBEBEB;
+}
+
+.services h2 {
+    padding-top: 40px;
+    margin-bottom: 102px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-item {
+    margin-bottom: 30px;
+}
+.about {
+    padding: 140px 0;
+}
+.about-content {
+    display: flex;
+}
+.about-text, .about-info {
+    width: 50%;
+}
+.about-text h2 {
+    margin-bottom: 62px;
+}
+.about-text h2 span {
+    color: #005FA3;
+}
+.about-text p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
 }
