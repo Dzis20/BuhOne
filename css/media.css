@@ -9,6 +9,23 @@
     .container {
         max-width: 990px;
     }
+    .services-list {
+        justify-content: space-around;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .about-text, .about-info {
+        width: 100%;
+    }
+    .about-text p {
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+    .about-info {
+        justify-content: space-around;
+    }
+    
     
 }
 @media (max-width: 990px) {
@@ -92,9 +109,10 @@
         width: 100%;
         background-color: #fff;
         z-index: 2;
-        padding-top: 125px;
+        padding-top: 80px;
         padding-left: 40px;
         transition: 1s;
+        overflow: auto;
     }
     .header-content.active {
         left: 0;
@@ -116,6 +134,10 @@
         margin-left: 0;
         margin-bottom: 40px;
     }
+    .about-info {
+        justify-content: space-around;
+    }
+    
 }
 @media (max-width: 767px) {
     .services {
@@ -132,12 +154,19 @@
     .services-item {
         width: 49%;
     }
+    
+    
 } 
+@media (max-width: 580px) {
+    .about-info-item:nth-child(2), .about-info-item:last-child {
+        margin-left: 0px;
+    }
+}
 @media (max-width: 500px) {
-    .services span {
+    span.for-title {
         font-size: 16px;
     }
-    .services h2 {
+    h2.section-title {
         font-size: 26px;
     }
     .services-item {
