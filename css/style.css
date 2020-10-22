@@ -305,3 +305,124 @@ a.main-btn {
     opacity: 1 !important;
 }
 
+.footer {
+    padding-top: 140px;
+    padding-bottom: 122px;
+    background-image: url('../img/contact-background.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.footer-content {
+    display: flex;
+}
+.footer h2.section-title {
+    margin-bottom: 60px;
+    padding: 0;
+}
+.footer-info, form.footer-form {
+    width: 50%;
+}
+.footer-info p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 445px;
+    margin-bottom: 80px;
+}
+.footer-social {
+    display: flex;
+    
+}
+.footer-social p {
+    display: flex;
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+.footer-social p img {
+    margin-right: 15px;
+}
+.footer-form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.footer-form-item {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+form.footer-form label {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+form.footer-form input {
+    height: 26px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+form.footer-form input::placeholder {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD
+}
+.footer-form-row-textarea {
+    margin-bottom: 70px;
+}
+form.footer-form textarea {
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+form.footer-form textarea::placeholder {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD
+}
+.footer-form-row-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-form-row-btn a {
+    width: 270px;
+    height: 60px;
+    display: inline-block;
+    background-color: #005FA3;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.copyright-content {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+.copyright p:last-child {
+    text-align: right;
+}

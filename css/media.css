@@ -137,6 +137,12 @@
     .about-info {
         justify-content: space-around;
     }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-info, form.footer-form {
+        width: 100%;
+    }
     
 }
 @media (max-width: 767px) {
@@ -154,7 +160,7 @@
     .services-item {
         width: 49%;
     }
-    .services, .about, .reviews {
+    .services, .about, .reviews, .footer {
         padding-top: 50px;
         padding-bottom: 50px;
     }
