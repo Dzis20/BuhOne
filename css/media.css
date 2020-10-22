@@ -154,9 +154,26 @@
     .services-item {
         width: 49%;
     }
+    .services, .about, .reviews {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .reviews-slider-content {
+
+        padding: 45px 45px 0 45px;
+    }
     
     
 } 
+@media (max-width: 550px) {
+    .clients-slide-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
 @media (max-width: 580px) {
     .about-info-item:nth-child(2), .about-info-item:last-child {
         margin-left: 0px;

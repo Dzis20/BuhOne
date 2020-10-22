@@ -76,16 +76,20 @@ ul.main-nav li {
     margin-left: 76px;
     text-transform: uppercase;
 }
+ul.main-nav li a {
+    color: #222222
+}
 ul.main-nav li:first-child, .header-info p:first-child {
     margin-left: 0;
 }
 .main {
     height: 670px;
     background-image: url(../img/main-background.png);
+    background-size: cover;
 }
 .swiper-container {
     width: 100%;
-    height: 670px;
+    /* height: 670px; */
     position: relative;
 }
 
@@ -104,10 +108,7 @@ ul.main-nav li:first-child, .header-info p:first-child {
     padding: 5px;
 }
 .swiper-pagination-bullet-active {
-	background: white;
-}
-.swiper-slide {
-    padding-top: 170px;
+    background: #fff !important; 
 }
 h1.main-text {
     font-family: 'Merriweather', serif;
@@ -118,6 +119,7 @@ h1.main-text {
     max-width: 589px;
     color: white;
     margin-bottom: 70px;
+    padding-top: 170px;
 }
 a.main-btn {
     width: 270px;
@@ -131,6 +133,7 @@ a.main-btn {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 244px;
 }
 
 .services {
@@ -183,7 +186,7 @@ a.main-btn {
 .about-info-item {
     width: 255px;
     height: 255px;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     margin-bottom: 30px;
     padding-top: 30px;
     padding-left: 40px;
@@ -212,7 +215,93 @@ a.main-btn {
     color: #005FA3;
     text-decoration:underline;
 }
-/* .about-info-item:first-child, .about-info-item:nth-child(3) {
-    margin-right: 30px;
+.clients {
+    padding: 100px 0;
+    background-color: #EBEBEB;
+}
+.clients h2 {
+    margin-bottom: 80px;
+}
+.clients-slide-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.clients .swiper-pagination {
+	position: absolute;
+	bottom: 0%;
+	left: 10%;
+	width: 150px !important;
+	left: auto !important;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.clients .swiper-pagination-bullet {
+    background: #005FA3 !important;
+    padding: 5px;
+}
+.clients .swiper-pagination-bullet-active {
+    background: #005FA3 !important; 
+    opacity: 1 !important;
+}
+
+.reviews {
     
-} */
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+.reviews h2 {
+    margin-bottom: 80px;
+}
+.reviews-slider-content {
+    width: 100%;
+    background-color: #e5e5e5;
+    padding: 45px 95px 0 95px;
+    margin-bottom:100px;
+}
+.reviews-slider-content p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 58px;
+    text-align: justify;
+}
+.author-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+}
+.author-info img {
+    margin-right: 35px;
+}
+.auth-name h3 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+}
+.auth-name span {
+
+}
+.reviews .swiper-pagination {
+	position: absolute;
+	bottom: 0%;
+	left: 10%;
+	width: 150px !important;
+	left: auto !important;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.reviews .swiper-pagination-bullet {
+    background: #005FA3 !important;
+    opacity: 0.4 !important;
+    padding: 5px;
+}
+.reviews .swiper-pagination-bullet-active {
+    background: #005FA3 !important; 
+    opacity: 1 !important;
+}
+
